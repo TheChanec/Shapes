@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ShapeConsoleApp.Models
+﻿namespace ShapeConsoleApp.Models
 {
     public enum Color
     {
