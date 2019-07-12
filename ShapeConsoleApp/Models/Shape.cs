@@ -10,5 +10,7 @@
         }
 
         public abstract double Area { get;  }
+
+        public Color Color { get { return _color; } }
     }
 }
