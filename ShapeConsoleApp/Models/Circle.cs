@@ -6,5 +6,6 @@ namespace ShapeConsoleApp.Models
 {
     public class Circle : Shape
     {
+        public int Radius { get; set; }
     }
 }
