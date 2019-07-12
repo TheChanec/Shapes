@@ -5,9 +5,9 @@
         private readonly int _height;
         private readonly int _width;
 
-        public Rectangle(Color color, int _height, int width) : base(color)
+        public Rectangle(Color color, int height, int width) : base(color)
         {
-            _height = _height;
+            _height = height;
             _width = width;
         }
 
