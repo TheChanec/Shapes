@@ -1,11 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ShapeConsoleApp.Models
+﻿namespace ShapeConsoleApp.Models
 {
     public class Circle : Shape
     {
-        public int Radius { get; set; }
+        private readonly int _radius;
+
+        public Circle(Color color, int radius) : base(color)
+        {
+            _radius = radius;
+        }
+
+        public override double Area
+        {
+            get
+            {
+                return _radius * _radius * System.Math.PI;
+            }
+        }
     }
 }
