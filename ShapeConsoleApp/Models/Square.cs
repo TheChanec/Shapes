@@ -1,10 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace ShapeConsoleApp.Models
+﻿namespace ShapeConsoleApp.Models
 {
-    class Square
+    public class Square : Rectangle
     {
+        private readonly int _side;
+
+        public Square(Color color, int side) : base(color, side, side)
+        {
+            _side = side;
+        }
+
     }
 }
