@@ -1,5 +1,4 @@
 ﻿using ShapeConsoleApp.Models;
-using System;
 using System.Linq;
 
 namespace ShapeConsoleApp
